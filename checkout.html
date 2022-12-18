@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="css/toaster.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bookfair.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <!-- custom css -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section>
+        <div class="main-menu">
+
+            <div class="top-details">
+                <div class="top-details-left">
+                    <a href="mailto:"><i class="far fa-envelope-open"><span>info@myshop.com</span></i></a>
+                    <a href="tel:+"><i class="fas fa-phone-alt"><span>01879923111</span></i></a>
+                </div>
+                <div class="top-details-right">
+                    <a href="#"><i class="fas fa-heart"><span>Wishlist</span></i></a>
+                    <a href="#"><i class="fas fa-user-circle"><span>My Account</span></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"><span>Checkout</span></i></a>
+                </div>
+            </div>
+
+            <div class="logo-details-and-others">
+                <div class="main-logo-text">
+                    <img src="images/pngegg.png" alt="">
+                    <h2>Arafat Rony</h2>
+                </div>
+                <div class="cart-button">
+                    <a href="#">
+                        CART
+                        <span><i class="fas fa-shopping-bag"></i></span>
+                        <span><i style="color:red" class="far fa-envelope-open"></i></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-bar" id="menu-bar">
+                <div class="menu-bar-items">
+                    <a class="active" href="">প্রথম পাতা</a>
+                    <a href="">বই মেলা ২০২০</a>
+
+                    <div class="frontModal" id="lekhok">
+                        লেখক
+                        <div class="hover-lekhok">
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                        </div>
+                    </div>
+
+                    <div class="frontModal" id="prokashoni">
+                        প্রকাশনী
+                        <div class="hover-prokashoni">
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                        </div>
+                    </div>
+
+                    <div class="frontModal" id="bishoy">
+                        বিষয়
+                        <div class="hover-bishoy">
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="modalLinks" href="#">তানজিব সারোয়ার </a>
+                            <a class="modalLinks" href="#">তামিম শাহরিয়ার সুবিন</a>
+                            <a class="modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="modalLinks" href="#">জহির রায়হান </a>
+                            <a class="modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="modalLinks" href="#">তানকিউল হাসান</a>
+                        </div>
+                    </div>
+                    
+                    <a href="">যোগাযোগ</a>
+                </div>
+
+
+                <div class="res-top-menu">
+                    <div class="left-section res">
+                        <span>Arafat Rony</span>
+                    </div>
+
+                    <div class="right-section res">
+                        <span><i id="openSideBar" class="fas fa-bars"></i></span>
+                    </div>
+                </div>
+
+                <div class="menu-bar-search-bar">
+                    <input type="text">
+                    <button class="btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+
+            <div class="side-bar">
+                <div class="side-bar-header">
+                    <div class="side-bar-title">
+                        <h2>Arafat Rony</h2>
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+                <a class="active" href="">প্রথম পাতা</a>
+                <a href="">বই মেলা ২০২০</a>
+                <a href="#" id="res-lekhok">লেখক<span class="arrowRight"><i class="fas fa-chevron-right"></i></span></a>
+                <a href="#" id="res-prokashoni">প্রকাশনী<span class="arrowRight"><i class="fas fa-chevron-right"></i></span></a>
+                <a href="#" id="res-bishoy">বিষয়<span class="arrowRight"><i class="fas fa-chevron-right"></i></span></a>
+                <a href="">যোগাযোগ</a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal-prokashoni" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">প্রকাশনী</h5>
+                            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a class="res-modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="res-modalLinks" href="#">জহির রায়হান </a>
+                            <a class="res-modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="res-modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="res-modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="res-modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="res-modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="res-modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="res-modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="res-modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="res-modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal-lekhok" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">প্রকাশনী</h5>
+                            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a class="res-modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="res-modalLinks" href="#">জহির রায়হান </a>
+                            <a class="res-modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="res-modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="res-modalLinks" href="#">ব্রায়ান-ট্রেসি</a>
+                            <a class="res-modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="res-modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="res-modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="res-modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="res-modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="res-modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal-bishoy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">প্রকাশনী</h5>
+                            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a class="res-modalLinks" href="#">বিভূতিভূষণ বন্দোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">কাজী নজরুল ইসলাম </a>
+                            <a class="res-modalLinks" href="#">জহির রায়হান </a>
+                            <a class="res-modalLinks" href="#">ইশতিয়াক আহম্মেদ</a>
+                            <a class="res-modalLinks" href="#">আশীফ এস্তাজ রবি</a>
+                            <a class="res-modalLinks" href="">ব্রায়ান-ট্রেসি</a>
+                            <a class="res-modalLinks" href="#">কারল-এস-ডিউইক</a>
+                            <a class="res-modalLinks" href="#">তানকিউল হাসান</a>
+                            <a class="res-modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                            <a class="res-modalLinks" href="#">সুনীল গঙ্গোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">মানিক বন্দোপাধ্যায়</a>
+                            <a class="res-modalLinks" href="#">সৈয়দ শামসুল হক</a>
+                            <a class="res-modalLinks" href="#">আরিফ আজাদ </a>
+                            <a class="res-modalLinks" href="#">মোহাম্মদ জাফর ইকবাল</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="page-title">
+            <h1>Checkout</h1>
+            <div class="page-dir">
+                <span>home</span>
+                <span> / </span>
+                <span class="current-pag">Checkout</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="coupon-que">
+            <p><span><i class="fas fa-square-full"></i>Have a coupon?</span><span id="entrCupn">Click here to enter your code</span></p>
+        </div>
+        <div class="open-that-coupon-h0">
+            <div class="coupon-open-que">
+                <p>If you have a coupon code, please apply it below.</p>
+                <div class="coupon-field">
+                    <input type="text" name="" placeholder="Coupon Code">
+                    <button>Apply coupon</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="billing-address">
+            <div class="address1">
+                <h1>Billing Details</h1>
+
+                <form autocomplete="off" method="post" action="">
+                    <input type="hidden" autocomplete="false" name="hidden">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="CompanyName">Company name (optional)</label>
+                        <input type="text" name="CompanyName" class="form-control" id="CompanyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="countryName">Country</label>
+                        <select autocomplete="country" id="select-Country" class="mdb-select md-form" searchable="Search Country..">
+                            <option value="">Select a Country...</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA" selected>Bangladesh</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="streerAddr">Street address</label>
+                        <input type="text" class="form-control" id="streerAddr" placeholder="House Number and street name">
+                        <p></p>
+                        <input type="text" class="form-control" id="streerAddr2" placeholder="Apartment, suite, unit etc. (optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="districtName">District</label>
+                        <select autocomplete="off" id="selectDistrict" class="mdb-select md-form" searchable="Search Country..">
+                            <option value="">Select a Country...</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC" selected>Dhaka</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Town / City</label>
+                        <input type="text" class="form-control" id="streerAddr3">
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="Postcode">Postcode / ZIP (optional)</label>
+                        <input type="text" class="form-control" id="post-zip">
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone">Phone</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="emailAddr" placeholder="Email Address">
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="address2">
+                <h1 id="checkBoxOpen"><input type="checkbox" id="check"> Ship to a different address?</h1>
+                <form id="addTogg" class="addTogg" autocomplete="off" method="post" action="">
+                    <input type="hidden" autocomplete="false" name="hidden">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="CompanyName">Company name (optional)</label>
+                        <input type="text" name="CompanyName" class="form-control" id="CompanyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="countryName">Country</label>
+                        <select autocomplete="country" id="select-Country" class="mdb-select md-form" searchable="Search Country..">
+                            <option value="">Select a Country...</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA" selected>Bangladesh</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="streerAddr">Street address</label>
+                        <input type="text" class="form-control" id="streerAddr" placeholder="House Number and street name">
+                        <p></p>
+                        <input type="text" class="form-control" id="streerAddr2" placeholder="Apartment, suite, unit etc. (optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="districtName">District</label>
+                        <select autocomplete="off" id="selectDistrict" class="mdb-select md-form" searchable="Search Country..">
+                            <option value="">Select a Country...</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC" selected>Dhaka</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Town / City</label>
+                        <input type="text" class="form-control" id="streerAddr3">
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="Postcode">Postcode / ZIP (optional)</label>
+                        <input type="text" class="form-control" id="post-zip">
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone">Phone</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="emailAddr" placeholder="Email Address">
+                    </div>
+                </form>
+
+                
+                <div class="form-group set-fs">
+                    <label for="Order Notes">Order Notes (Optional)</label>
+                    <textarea class="col-md-12" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container">
+        <div class="cart-count">
+            <div class="this-section-header">
+                <h1>Your order</h1>
+            </div>
+
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>Product</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>Total</h3>
+                </div>
+            </div>
+
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h4>মেঘডুবি  × 1</h4>
+                </div>
+                <div class="cart-total-right">
+                    <h3><span style="color: red;">৳ 342.00</span></h3>
+                </div>
+            </div>
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h4>মেঘডুবি  × 1</h4>
+                </div>
+                <div class="cart-total-right">
+                    <h3><span style="color: red;">৳ 342.00</span></h3>
+                </div>
+            </div>
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>Subtotal</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>৳ 684.00</h3>
+                </div>
+            </div>
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>Shipping</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>flat rate: <span style="color: green;">৳ 45.00</span></h3>
+                </div>
+            </div>
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>Total</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>৳ 750.00</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="payment-section">
+            <h2>Cash on Delievery</h2>
+            <div class="payCash">
+                Pay with cash upon delivery.
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+            <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+            <div class="cash-btn">
+                <button>Place Order</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="devide-area">
+
+    </section>
+
+    <section>
+        <div class="footer container">
+            <div class="footer-left">
+                <div class="footer-left-row">
+                    <div class="footer-left-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="footer-left-text">
+                        153/2 Arambag, Dhaka, Bangladesh
+                    </div>
+                </div>
+
+                <div class="footer-left-row">
+                    <div class="footer-left-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="footer-left-text">
+                        Phone: (+88) 01879923111
+                    </div>
+                </div>
+
+                <div class="footer-left-row">
+                    <div class="footer-left-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="footer-left-text">
+                        Email: arafat.rony1999@gmail.com
+                    </div>
+                </div>
+
+                <div class="footer-left-row">
+                    <div class="footer-icons">
+                        <a href="https://www.facebook.com/aponseheba/" target="_blank"><i style="margin-left: 0;"
+                                class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/messages/t/304654760235466"><i
+                                class="fab fa-facebook-messenger" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.428296390832!2d90.41687801493273!3d23.73210168459845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b95a813ddb7f%3A0xff9d8cb7577907b0!2zQWxvciBBbmlyYmFuIEZvdW5kYXRpb24g4KaG4Kay4KeL4KawIOCmheCmqOCmv-CmsOCnjeCmrOCmvuCmoyDgpqvgpr7gpongpqjgp43gpqHgp4fgprbgpqg!5e0!3m2!1sen!2sbd!4v1625831518417!5m2!1sen!2sbd"
+                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+
+        <div class="footer-copyright">
+            <span>Copyright © 2018 Book Store. All Rights Reserved.</span>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/axios.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/toaster.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/onHover.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+    <script src="https://kit.fontawesome.com/411c21c790.js" crossorigin="anonymous"></script>
+    
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+        window.addEventListener("scroll", () => {
+            document.querySelector("#menu-bar").classList.toggle("sticky", window.scrollY > 50);
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#openSideBar').on('click', () => {
+                $('.side-bar').addClass('active-side-bar');
+                $("body").css("overflow", "hidden");
+            });
+            $('.fa-times').on('click', () => {
+                $('.side-bar').removeClass('active-side-bar');
+                $("body").css("overflow", "scroll");
+            });
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('select').selectize({
+                sortField: 'text'
+            });
+        });
+    </script>
+</body>
+
+</html>

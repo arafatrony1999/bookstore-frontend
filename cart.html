@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="css/toaster.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="css/datatable.css"> -->
+
+    <!-- css for header -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bookfair.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section>
+        <div class="main-menu">
+
+            <div class="top-details">
+                <div class="top-details-left">
+                    <a href="mailto:"><i class="far fa-envelope-open"><span>info@myshop.com</span></i></a>
+                    <a href="tel:+"><i class="fas fa-phone-alt"><span>01879923111</span></i></a>
+                </div>
+                <div class="top-details-right">
+                    <a href="mailto:"><i class="far fa-envelope-open"><span>info@myshop.com</span></i></a>
+                    <a href="tel:+"><i class="fas fa-phone-alt"><span>01879923111</span></i></a>
+                </div>
+            </div>
+
+            <div class="logo-details-and-others">
+                <div class="main-logo-text">
+                    <img src="images/pngegg.png" alt="">
+                    <h2>Arafat Rony</h2>
+                </div>
+                <div class="cart-button">
+                    <a href="#">
+                        CART
+                        <span><i class="fas fa-shopping-bag"></i></span>
+                        <span><i style="color:red" class="far fa-envelope-open"></i></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-bar" id="menu-bar">
+                <div class="menu-bar-items">
+                    <a class="active" href="">প্রথম পাতা</a>
+                    <a href="">বই মেলা ২০২০</a>
+                    <a href="">লেখক</a>
+                    <a href="">প্রকাশনী</a>
+                    <a href="">বিষয়</a>
+                    <a href="">যোগাযোগ</a>
+                </div>
+
+                <div class="res-top-menu">
+                    <div class="left-section res">
+                        <span>Arafat Rony</span>
+                    </div>
+
+                    <div class="right-section res">
+                        <span><i id="openSideBar" class="fas fa-bars"></i></span>
+                    </div>
+                </div>
+
+                <div class="menu-bar-search-bar">
+                    <input type="text">
+                    <button class="btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+
+            <div class="side-bar">
+                <div class="side-bar-header">
+                    <div class="side-bar-title">
+                        <h2>Arafat Rony</h2>
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+                <a class="active" href="">প্রথম পাতা</a>
+                <a href="">বই মেলা ২০২০</a>
+                <a href="">লেখক<span class="arrowRight"><i class="fas fa-chevron-right"></i></span></a>
+                <a href="">প্রকাশনী<span class="arrowRight"><i class="fas fa-chevron-right"></i></span></a>
+                <a href="">বিষয়<span class="arrowRight"><i class="fas fa-chevron-right"></i></span></a>
+                <a href="">যোগাযোগ</a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="page-title">
+            <h1>Cart</h1>
+            <div class="page-dir">
+                <span>home</span>
+                <span> / </span>
+                <span class="current-pag">Cart</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">view</th>
+                    <th scope="col">product</th>
+                    <th scope="col">price</th>
+                    <th scope="col">quantity</th>
+                    <th scope="col">total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Account"><i class="fas fa-times"></i></td>
+                    <td data-label="view"><img src="images/product1.png" alt=""></td>
+                    <td data-label="product">মেঘডুবি</td>
+                    <td data-label="price">৳ 342.00</td>
+                    <td data-label="quantity"><input type="number" value="1" name="" id=""></td>
+                    <td data-label="total">৳ 342.00</td>
+                </tr>
+                <tr>
+                    <td data-label="Account"><i class="fas fa-times"></i></td>
+                    <td data-label="view"><img src="images/product1.png" alt=""></td>
+                    <td data-label="product">মেঘডুবি</td>
+                    <td data-label="price">৳ 342.00</td>
+                    <td data-label="quantity"><input type="number" value="1" name="" id=""></td>
+                    <td data-label="total">৳ 342.00</td>
+                </tr>
+                <tr>
+                    <td data-label="Account"><i class="fas fa-times"></i></td>
+                    <td data-label="view"><img src="images/product1.png" alt=""></td>
+                    <td data-label="product">মেঘডুবি</td>
+                    <td data-label="price">৳ 342.00</td>
+                    <td data-label="quantity"><input type="number" value="1" name="" id=""></td>
+                    <td data-label="total">৳ 342.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container">
+        <div class="cart-table-footer">
+            <div class="table-footer-left">
+                <input type="text" name="" id="" placeholder="coupon code">
+                <button>apply coupon</button>
+            </div>
+            <div class="table-footer-right">
+                <button>update cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="cart-count">
+            <div class="this-section-header">
+                <h1>Cart totals</h1>
+            </div>
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>subtotal</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>৳ 542.00</h3>
+                </div>
+            </div>
+
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>Shipping</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>flat rate: <span style="color: red;">৳ 45.00</span></h3>
+                    <h3>Estimate for <span style="font-weight: bolder;">Dhaka</span> . </h3>
+                    <button id="cart-total-collapse">Change address <span class="addChange"><i class="fas fa-truck"></i></span></button>
+                    
+                    <div class="before-click">
+                        <select name="" id="">
+                            <option value="">Afghanistan</option>
+                            <option value="">Australia</option>
+                            <option value="">England</option>
+                            <option value="">America</option>
+                            <option value="">Argentina</option>
+                            <option value="" selected>Bangladesh</option>
+                            <option value="">India</option>
+                            <option value="">Pakistan</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Sylhet</option>
+                            <option value="">Barisal</option>
+                            <option value="">Noakhali</option>
+                            <option value="">Rajsahi</option>
+                            <option value="">Rangamati</option>
+                            <option value="" selected>Dhaka</option>
+                            <option value="">Comilla</option>
+                            <option value="">Chittagong</option>
+                            <option value="">Chandpur</option>
+                        </select>
+                        <input type="text"  name="" id="" placeholder="Town / City">
+                        <input type="text" name="" id="" placeholder="Postcode / ZIP">
+                        <button>Update Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total-single-row">
+                <div class="cart-total-left">
+                    <h3>Total</h3>
+                </div>
+                <div class="cart-total-right">
+                    <h3>৳ 542.00</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="cart-final-buttons">
+            <div class="final-left">
+                <a href="">Proceed to checkout</a>
+            </div>
+            <div class="final-right">
+                <a href="">Continue shopping</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="devide-area">
+
+    </section>
+
+    <section>
+        <div class="footer container">
+            <div class="footer-left">
+                <div class="footer-left-row">
+                    <div class="footer-left-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="footer-left-text">
+                        153/2 Arambag, Dhaka, Bangladesh
+                    </div>
+                </div>
+
+                <div class="footer-left-row">
+                    <div class="footer-left-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="footer-left-text">
+                        Phone: (+88) 01879923111
+                    </div>
+                </div>
+
+                <div class="footer-left-row">
+                    <div class="footer-left-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="footer-left-text">
+                        Email: arafat.rony1999@gmail.com
+                    </div>
+                </div>
+
+                <div class="footer-left-row">
+                    <div class="footer-icons">
+                        <a href="https://www.facebook.com/aponseheba/" target="_blank"><i style="margin-left: 0;"
+                                class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/messages/t/304654760235466"><i
+                                class="fab fa-facebook-messenger" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.428296390832!2d90.41687801493273!3d23.73210168459845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b95a813ddb7f%3A0xff9d8cb7577907b0!2zQWxvciBBbmlyYmFuIEZvdW5kYXRpb24g4KaG4Kay4KeL4KawIOCmheCmqOCmv-CmsOCnjeCmrOCmvuCmoyDgpqvgpr7gpongpqjgp43gpqHgp4fgprbgpqg!5e0!3m2!1sen!2sbd!4v1625831518417!5m2!1sen!2sbd"
+                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+
+        <div class="footer-copyright">
+            <span>Copyright © 2018 Book Store. All Rights Reserved.</span>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <!-- <script src="js/datatable.js"></script> -->
+    <script src="js/axios.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/toaster.js"></script>
+    <script src="js/collapse.js"></script>
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+    <script src="https://kit.fontawesome.com/411c21c790.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+        window.addEventListener("scroll", () => {
+            document.querySelector("#menu-bar").classList.toggle("sticky", window.scrollY > 50);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#openSideBar').on('click', () => {
+                $('.side-bar').addClass('active-side-bar');
+                $("body").css("overflow", "hidden");
+            });
+            $('.fa-times').on('click', () => {
+                $('.side-bar').removeClass('active-side-bar');
+                $("body").css("overflow", "scroll");
+            });
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#table').DataTable();
+        });
+    </script>
+</body>
+
+</html>
